@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(to top left, #fd7e14, azure);
+}
+
+.head{
+    height: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head_img img{
+    max-width: 1000px;
+}
+
+.avatar_img{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-color: #ff562f;
+    align-items: center;
+    margin: 5px;
+}
+
+.avatar_img_{
+    height: 225px;
+    width: 225px;
+    display: block;
+    margin: 0 auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .about_person{
+    display: flex;
+    flex-direction: row;
+}
+
+.link a {
+    background: linear-gradient(to bottom, #fd7e14 0%, #fd7e14 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 1px 1px;
+    color: #000;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.link a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23337AB7' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-2,10,-2 s 5,2,10,2 c 5,0,5,-2,10,-2 s 5,2,10,2'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 4px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+}
+
+.contacts{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.contacts .info{
+    background: #fcac4d;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.contacts .sozdatel{
+    color: #fcfcfc;
+}
