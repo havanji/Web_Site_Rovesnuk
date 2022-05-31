@@ -1,3 +1,6 @@
+body{
+    background: linear-gradient(to top left, #fd7e14, azure);
+}
 
 .head{
     height: 350px;
@@ -7,6 +10,9 @@
     justify-content: center;
 }
 
+.head_img img{
+    max-width: 1000px;
+}
 
 .avatar_img{
     display: flex;
@@ -56,14 +62,16 @@
 .contacts{
     display: flex;
     justify-content: flex-end;
+    margin: 5px;
 }
 
 .contacts .info{
     background: #fcac4d;
     border-style: solid;
     border-radius: 5px;
+    margin: 2px;
 }
 
 .contacts .sozdatel{
-    color: #fd7e14;
+    color: #fcfcfc;
 }
